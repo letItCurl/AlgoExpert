@@ -1,0 +1,24 @@
+{
+  "name": "AlgoExpert",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "chai": "^4.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "depth_first": "node depth_first/depth_first_printer.js "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/letItCurl/AlgoExpert.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/letItCurl/AlgoExpert/issues"
+  },
+  "homepage": "https://github.com/letItCurl/AlgoExpert#readme"
+}
