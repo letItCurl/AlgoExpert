@@ -10,7 +10,12 @@ class Node {
   }
 
   breadthFirstSearch(array) {
-
+    const queue = [this]
+    while(queue.length > 0){
+      const current = queue.shift()
+      array.push(current.name)
+      queue.push(...current.children)
+    }
     return array
   }
 }
